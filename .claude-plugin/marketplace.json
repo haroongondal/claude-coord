@@ -1,0 +1,14 @@
+{
+  "name": "claude-coord",
+  "description": "Turn-taking for Claude Code sessions that share files, apps and devices.",
+  "owner": {
+    "name": "haroongondal"
+  },
+  "plugins": [
+    {
+      "name": "coord",
+      "source": "./plugins/coord",
+      "description": "Lets several Claude Code sessions take turns on the same file, folder, app or device."
+    }
+  ]
+}
